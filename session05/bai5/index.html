@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bai5</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 800px;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #1a73e8;
+            font-size: 24px;
+        }
+        .description {
+            font-size: 16px;
+            color: #333;
+        }
+        .code-box {
+            background: #fff8e1;
+            padding: 15px;
+            border-left: 5px solid #ffc107;
+            font-family: "Courier New", monospace;
+            white-space: pre-line;
+        }
+        .code-box code {
+            display: block;
+            font-size: 14px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>5. Groups of selectors</h1>
+        <p class="description">
+           <strong>A comma-separated list of selectors represents the union of all elements selected by each of the individual selectors in the list. 
+            (A comma is U+002C.) For example, in CSS when several selectors share the same declarations, they may be grouped into a comma-separated list.</strong> 
+        </p>
+        <div class="code-box">
+            <p><strong>CSS example:</strong></p>
+            <p>In this example, we condense three rules with identical declarations into one. Thus,</p>
+            <div>
+                h1 { font-family: sans-serif }
+                h2 { font-family: sans-serif }
+                h3 { font-family: sans-serif }
+            </div>
+            <p>is equivalent to:</p>
+            <div>
+                h1, h2, h3 { font-family: sans-serif }
+            </div>
+        </div>
+    </div>
+</body>
+</html>
