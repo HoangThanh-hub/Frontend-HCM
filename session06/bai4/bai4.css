@@ -1,0 +1,52 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    background-color: #4caf4f;
+    color: white;
+    padding: 10px;
+}
+
+
+.container h1{
+    text-align: center;
+}
+
+.container ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-right: 50px;
+    color: #2e6ac8;
+}
+
+
+.container2 {
+    
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.container2 h3{
+    margin: 20px;
+}
+
+.container2 .chapter{
+
+    background-color: #f9f9f9;
+    border: 1px solid gainsboro;
+    height: 530px;
+    width: 400px;
+}
+
+#foot{
+    text-align: center;
+    background-color: #333333;
+    color: white;
+    padding: 20px;
+}
