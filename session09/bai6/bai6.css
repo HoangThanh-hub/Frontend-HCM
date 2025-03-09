@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    gap: 20px ;
+}
+.big p{
+    background-color: #2C3E4F;
+    color: white;
+    height: 150px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.small{
+    display: flex;
+    gap: 20px;
+}
+
+.small p{
+    background-color: #2C3E4F;
+    color: white;
+    height: 57px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.bg {
+    height: 753px;
+    width: 1415px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

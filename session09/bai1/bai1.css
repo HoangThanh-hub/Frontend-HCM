@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    width: 500px;
+    height: 400px;
+    background-color: #f0f0f0;
+    border: 2px solid black;
+    align-items:center;
+    justify-content: center;
+
+}
+.bg {
+    height: 753px;
+    width: 1415px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+p{
+    display: flex;
+    color: white;
+    background-color: #3498da;
+    width: 100px;
+    height: 100px;
+    align-items:center;
+    justify-content: center;
+}
+
+

@@ -1,0 +1,38 @@
+.header {
+    background-color: #3498DA;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.body{
+    display: flex;
+    gap: 15px;
+}
+
+.a{
+    background-color: #2ecc71;
+    color: white;
+    width: 300px;
+    height: 500px;
+    padding: 10px;
+}
+
+.b{
+    padding: 10px;
+    background-color: #E74B3B;
+    color: white;
+    width: 1200px;
+    height: 500px;
+}
+
+.footer {
+    background-color: #9B59B6;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
