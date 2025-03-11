@@ -1,0 +1,36 @@
+.cotainer{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-family:cursive;
+}
+
+.td{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: #E5E5E5;
+    align-items: center;
+}
+
+.menu{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #9E9E9E;
+    align-items: center;
+    display: flex;
+    gap: 50px;
+}
+
+.home{
+    font-weight: bold;
+    color: black;
+}
+button{
+    color:#E5E5E5;
+    background-color: #8d939e;
+    border: none;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+}
