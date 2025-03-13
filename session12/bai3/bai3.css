@@ -1,0 +1,35 @@
+body{
+    background-color: #7F7F7F;
+    display: flex;
+    justify-content: center;
+}
+form{
+    width: 30%;
+    height: 54vh;
+    margin-top: 25vh;
+    background-color: white;
+    border-radius: 6px;
+}
+.header{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid rgb(221, 218, 218);
+    padding: 20px 10px;
+}
+.header legend{
+    font-weight: bold;
+    margin-top: 6px;
+}
+.header button{
+    margin-bottom: 17px;
+}
+.content{
+    padding: 10px 10px;
+}
+[class*="btn"]{
+    margin-top: 20px;
+}
